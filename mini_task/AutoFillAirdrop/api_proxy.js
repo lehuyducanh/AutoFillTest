@@ -21,14 +21,11 @@ var callproxy =  await axios
     .post("https://tmproxy.com/api/proxy/get-new-proxy", {
 "api_key": "1b0ff1b292c001d4834d0197c5e74b77"
 })
-    // .then((dataResponse) => {
-    //   var proxy = dataResponse.data.data.https;
-    // })
-    // .catch((error) => {
-    //   console.log("Error", error);
-    // });
 
-console.log(callproxy.data.data.https);
+
+
+var proxy = callproxy.data.data.https;
+console.log("proxy is", proxy);
+return proxy;
 }
 
-getnewip()
