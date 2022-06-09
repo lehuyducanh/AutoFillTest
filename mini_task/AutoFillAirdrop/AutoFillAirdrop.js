@@ -34,10 +34,9 @@ return proxy;
 
 
 
-
 (async () => {
 
-  for (let i = 14; i < wallet.length; i++) {
+  for (let i = 22; i < wallet.length; i++) {
 
     var proxy = await getnewip()
 
@@ -113,7 +112,7 @@ await delay(1000*5);
 
 
 // Screenshot
-await page.screenshot({ path: `${i}1.png` });
+// await page.screenshot({ path: `${i}1.png` });
 
 /////// Enter Form 2
 
@@ -160,7 +159,7 @@ await delay(1000*5);
 
 
 // Screenshot
-await page.screenshot({ path: `${i}2.png` });
+// await page.screenshot({ path: `${i}2.png` });
 
 /////// Enter Form 3
 
@@ -207,7 +206,7 @@ await delay(1000*5);
 
 
 // Screenshot
-await page.screenshot({ path: `${i}3.png` });
+// await page.screenshot({ path: `${i}3.png` });
 
 /////// Enter Form 4
 
@@ -277,8 +276,8 @@ await page.click('#root > div > form > div.published-form__footer > div > button
 await delay(1000*5);
 
 
-// Screenshot
-await page.screenshot({ path: `${i}4.png` });
+// // Screenshot
+// await page.screenshot({ path: `${i}4.png` });
 
 context.close()
 browser.close()
