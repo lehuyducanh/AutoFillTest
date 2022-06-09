@@ -22,10 +22,11 @@ var callproxy =  await axios
 "api_key": "1b0ff1b292c001d4834d0197c5e74b77"
 })
 
+console.log(callproxy.data);
 
-
-var proxy = callproxy.data.data.https;
-console.log("proxy is", proxy);
-return proxy;
+// var proxy = callproxy.data.data.https;
+// console.log("proxy is", proxy);
+// return proxy;
 }
 
+getnewip()
