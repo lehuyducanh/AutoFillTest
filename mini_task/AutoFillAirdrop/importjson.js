@@ -1,0 +1,1 @@
+var res = UrlFetchApp.fetch(`https://api.hummingbot.io/bounty/user/single_snapshot?market_id=${marketId}&timestamp=${time}&aggregation_period=60`);
