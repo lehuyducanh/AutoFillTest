@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const delay = require("delay");
 
-var companyName = fs.readFileSync('companyName.txt').toString().replace(/[^a-zA-Z0-9\n]/g, "").split('\n');
+var personalName = fs.readFileSync('personalName.txt').toString().replace(/[^a-zA-Z0-9\n]/g, "").split('\n');
 
 
 async function getENSdata(name) {
@@ -51,19 +51,21 @@ async function getENSdata(name) {
 
   console.log(name + "|" + expirationDate);
 
-  fs.appendFileSync('ENSdata.txt', name + "|" + expirationDate + "\n");
+  fs.appendFileSync('ENSdataPersonal.txt', name + "|" + expirationDate + "\n");
 
 
-  await browser.close();
 
+
+
+  return browser;
 }
 
 async function main() {
 
-  for (let i = 0; i < companyName.length; i++) {
+  for (let i = 255; i < personalName.length; i++) {
 
     try {
-      await getENSdata(companyName[i]);
+      await getENSdata(personalName[i]);
     } catch (error) {
       console.log(error);
       continue;

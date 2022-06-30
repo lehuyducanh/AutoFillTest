@@ -1,0 +1,1000 @@
+Peloton
+Netflix
+Costco
+Chick-fil-A
+Amazon
+Apple
+Nike
+Target
+Google
+Spotify
+Trader Joe's
+Zoom Video Communications
+The Walt Disney Company
+ROBLOX
+In-N-Out Burger
+Vans
+Nintendo
+Headspace
+REI
+Lego Group
+Delta Air Lines
+Microsoft
+Instagram
+Southwest Airlines
+American Eagle Outfitters
+Glossier
+Rockstar Games
+CHANEL
+LinkedIn
+Uniqlo
+PlayStation
+Tesla
+Starbucks
+nvidia
+Salesforce / Slack
+Honda
+Audi
+Red Bull
+Colgate Palmolive
+Bath & Body Works
+Mercedes-Benz USA
+Hershey Company
+Dunkin'
+Porsche
+Chipotle
+BMW Group
+Pinterest
+Logitech
+Ritz-Carlton
+Shopify
+Crocs
+Gucci
+AMD
+Tiffany & Co
+The Coca-Cola Company
+Rooster Teeth
+National Geographic
+adidas
+SEPHORA
+HBO
+Mars
+American Express
+PUMA
+Versace
+Visa
+Adobe
+Square
+Whole Foods Market
+Unilever
+USAA
+Cisco
+JPMorgan Chase & Co
+Bungie
+MAC Cosmetics
+YouTube
+LVMH
+Riot Games
+Airbnb
+Marriott
+Ubisoft
+ZoomInfo
+Toyota
+Tommy Hilfiger
+Hilton
+McDonald's
+The Home Depot
+Baskin Robbins
+Mastercard
+Johnson & Johnson
+Uber
+Twitter
+Procter & Gamble
+7-Eleven
+Coinbase
+FedEx
+3M
+Nordstrom
+Philips
+Bose
+Foot Locker
+Best Buy
+Meta
+Samsung
+Walmart
+PepsiCo
+IBM
+T-Mobile
+Verizon
+PayPal
+Intel Corporation
+Mattel, Inc.
+General Mills Inc.
+Levi Strauss & Co.
+AB InBev
+Domino's Pizza
+Six Flags
+National Football League (NFL)
+CVS Health
+Victoria's Secret
+Ford Motor Company
+Dell Technologies
+Allstate
+Stanley Black & Decker
+Accenture (US)
+Snap Inc.
+Warner Bros.
+Hulu
+Lowe's Home Improvement
+Bloomberg
+KFC
+DocuSign
+Boeing
+Stripe
+Gap Inc.
+Etsy
+Yum! Brands
+Pixar Animation Studios
+American Airlines
+Wells Fargo
+General Motors
+Nestle USA
+JetBlue Airways
+Taco Bell
+United Airlines
+Goldman Sachs
+Sysco
+Sony Pictures Entertainment
+Western Union
+Intuit
+UPS
+Kroger
+Bank of America
+Pizza Hut
+Deloitte (US)
+DoorDash
+Wynn Resorts
+Activision
+Harley-Davidson
+Chevron Corporation
+Universal Studios
+Sonos
+Fidelity Investments
+Patagonia
+Chevrolet
+WW (formally Weight Watchers)
+Canon
+Western Digital Corporation
+Abbott
+Xerox Corporation
+Hyatt
+Caterpillar Inc.
+WebMD
+Oracle
+MGM Resorts International
+DuPont
+Prudential
+Northrop Grumman Corporation
+BP
+Honeywell
+HP Inc.
+Tyson Foods
+Dyson
+Instacart
+PwC
+SAP
+Chewy
+John Deere
+Kaiser Permanente
+Zillow
+Campbell Soup Company
+Clorox
+Eli Lilly and Company
+Goodyear
+Skechers U.S.A.
+Paychex
+Dow Chemical Company 
+Albertsons Companies
+UnitedHealth Group
+Morgan Stanley
+Edward Jones
+Sherwin-Williams
+Qualcomm
+The Kraft Heinz Company
+Atlassian
+Bristol Myers Squibb
+Nasdaq
+Dole Food Company
+SpaceX
+RingCentral
+Zappos
+Lenovo
+Lexus
+PetSmart
+Pfizer
+H&M
+Genentech
+Ingram Micro
+Sony
+Grammarly
+Beachbody
+Zumiez
+Alaska Air Group
+Warby Parker
+HubSpot
+Hootsuite
+Discovery Communications
+Thomson Reuters
+ViacomCBS
+Mayo Clinic
+Marketo
+Under Armour
+Ulta Beauty
+lululemon
+Tim Hortons
+QVC
+Airbus
+GoDaddy
+Autodesk
+Charles Schwab
+Old Navy
+TikTok
+IKEA
+Dennys
+DICK'S Sporting Goods
+UBS
+Publix Super Markets
+Marshalls
+Realtor.com
+Steve Madden
+The Vanguard Group
+MillerCoors
+Clorox Company 
+Indeed.com
+Macy's
+Royal Caribbean International
+Four Seasons Hotels and Resorts
+H E B
+Red Hat
+Dollar Tree
+S.C. Johnson
+PIMCO
+Brooks Running
+TD Ameritrade
+Avery Dennison
+Ace Hardware
+Columbia Sportswear
+CBRE
+NetApp
+Oakley
+Dove
+Palantir Technologies
+Ericsson
+Ernst & Young (EY)
+Qualtrics
+Fortinet
+Sprout Social
+Hot Topic
+Jack in the Box
+Sotheby's
+Yelp
+DSW
+ADM
+Nielsen
+Box
+Shake Shack
+Rite Aid
+Jamba Juice
+Abercrombie & Fitch Company
+Discord
+Michelin
+LogMeIn
+Zulily
+Fanatics Commerce
+Overstock.com
+Fannie Mae
+Duracell
+Cargill
+Workday
+Chubb
+Humana
+Jacobs
+AIG
+California Pizza Kitchen
+UKG
+Kimberly-Clark
+Sun Life
+VSP Vision Care
+iHeartMedia
+Torrid
+Jet.com
+Northwestern Mutual
+Electrolux
+GitHub
+Dropbox
+L Brands
+iFIT
+Uline
+Staples
+Fiserv
+Hewlett Packard Enterprise
+AbbVie
+Gallup
+Boston Scientific
+Corning
+Herman Miller
+Texas Instruments
+Hasbro
+Twilio Inc.
+VMware
+Merck
+ServiceNow
+Roche
+Akamai
+Univision
+Dollar General
+General Electric
+InVision
+Duke Energy Corporation
+Textron
+Snap-on Tools
+GOAT Group
+Darden Restaurants
+Poshmark
+Diageo
+Sunrise Senior Living
+Omnicom Media Group
+Trimble
+Olive Garden Italian Restaurants
+GE Healthcare
+Burton
+Gympass
+OpenText
+Conagra Brands
+La-Z-Boy
+Ingersoll Rand
+Urban Outfitters
+Nokia
+Mozilla
+Burberry
+Berkshire Hathaway
+TOMS Shoes
+Armani
+Concentrix
+Schneider Electric
+GUESS
+Blizzard Entertainment
+Unity Technologies
+Xero Inc
+Tripadvisor
+reddit
+BBVA
+Marc Jacobs
+Tory Burch
+Dodge
+Fitbit
+Eventbrite
+Frito-Lay
+Hallmark
+Freddie Mac
+BNP Paribas
+Travelers
+NerdWallet
+Eastman Kodak
+Athleta
+Bechtel
+Barrick Gold Corporation
+Tupperware Brands
+Biogen
+TransUnion
+NCR Corporation
+Valve
+Micron Technology
+Razer
+Walgreens
+HD Supply
+EPAM Systems
+Tableau Software
+LG
+UiPath
+McKinsey & Company
+Credit Suisse
+Citi
+Robinhood
+TripActions
+Casper
+Motorola
+Tilly's
+AutoZone
+Momentive.ai
+Care.com
+Emerson Electric
+Zenefits
+Calvin Klein
+Forbes
+CNN
+Ralph Lauren Corporation
+Nickelodeon
+Lockheed Martin
+ABB Ltd
+Cadillac
+Kohl's
+KAYAK
+Cognizant Technology Solutions
+Warner Music Group
+Toast
+Dairy Queen
+Revlon
+Cabela's
+Olive Garden
+Banana Republic
+Outback Steakhouse
+Callaway Golf
+Planet Fitness
+Squarespace
+Princess Cruises
+The Coffee Bean & Tea Leaf
+Avon
+Speedway
+Texas Roadhouse
+Lids
+SoFi
+Dollar Shave Club
+JLL
+Brooks Brothers
+Jersey Mike's Subs
+Palo Alto Networks
+Redfin
+Southern Company 
+Booz Allen Hamilton
+CVENT
+Bonobos
+Globant
+SAP Concur
+MINDBODY, Inc.
+HarperCollins
+SolarCity
+Fujitsu
+Splunk
+Equinox
+Vista
+Choice Hotels
+Blackbaud
+Topshop
+Silicon Valley Bank
+ClassPass
+The North Face
+Smartsheet
+KPMG
+West Marine
+Georgia-Pacific
+Phillips66
+Constellation Brands
+Wiley
+Dynatrace
+Seagate Technology
+Zoho Corporation
+Gartner
+Gilead Sciences
+Audible, Inc.
+CME Group
+ExxonMobil
+Holiday Inn
+United Rentals
+Dave & Buster's
+Applied Materials
+Fox
+GNC
+Ryder System
+Cerner Corporation
+Pampered Chef
+Barnes & Noble
+Spanx
+Paycom
+Netsuite
+Tyler Technologies
+Royal Dutch Shell
+Coach
+New Era Cap
+Siemens
+Cigna Corporation
+PPG
+Infosys
+McAfee
+GoPro
+Udemy
+Boston Consulting Group
+Malwarebytes
+Upwork
+Zendesk
+TaylorMade Golf
+Astrazeneca PLC
+W.W. Grainger
+Smart & Final
+Cushman & Wakefield
+New York Life Insurance Company
+Barry's
+Burt's Bees
+Pegasystems
+Krispy Kreme
+Rockwell Automation
+Anthem, Inc.
+CoStar Group
+Cinepolis
+Capgemini
+Randstad
+ZipRecruiter
+Activision Blizzard
+Bloomin' Brands
+Amdocs
+Reebok
+CarGurus
+Fred Meyer
+Levy Restaurants
+Sprinklr
+BASF
+Vector Marketing
+Lear Corporation
+MongoDB, Inc.
+Skullcandy
+BAE Systems
+WeWork
+Rapid7
+Pure Storage
+Chegg
+Moody's Analytics
+Medtronic
+Korn Ferry
+Philip Morris International
+AppDynamics
+Toptal
+Confluent
+Gopuff
+US FOODS INC.
+Rover.com
+Owens Corning
+BambooHR
+Century 21
+Axon
+Teladoc
+iCIMS
+Slalom Consulting
+See's Candies
+Garmin International
+Radisson Hotels
+NXP Semiconductors
+Live Nation Entertainment
+Neiman Marcus
+Merrill Lynch
+Coursera
+Deutsche Bank
+Christie's
+HelloFresh
+Calm
+MuleSoft
+Carta
+Carter's
+Bumble
+Hormel Foods
+Corner Bakery Cafe
+Jb hunt
+Land O' Lakes
+Insight Global
+Phenom
+Rackspace Technology
+Irvine Company
+Exelon Corporation
+Infiniti
+Booking.com
+Specialized Bicycle Components
+Hobby Lobby
+U.S. Cellular
+New Relic
+Kelly
+GitLab
+ESPN
+B&H Photo
+ASUS
+BuzzFeed
+Novartis Pharmaceuticals
+Clean Harbors
+Builders FirstSource
+BlackRock
+Schlumberger
+Clif Bar
+Leo Burnett
+Meijer
+UserTesting
+SAP SuccessFactors
+F5 Networks
+Swiss Re
+T. Rowe Price Group
+PagerDuty
+Equinix
+Trustpilot
+Smithfield
+Altria
+ADT Corporation
+Prada
+The World Bank
+Alarm.com
+Adyen
+21st Century Fox
+Lacoste
+Wattpad
+Barstool Sports
+The Hartford
+The New York Times
+Red Robin
+Acer
+AECOM
+Anytime Fitness
+The Trade Desk, Inc.
+Wegmans
+Yext 
+Raytheon Technologies
+Thrive Market
+MailChimp
+VICE Media
+Wawa, Inc.
+Fiverr.com
+Pluralsight
+Nutanix
+23andMe
+Sally Beauty
+Stitch Fix
+Zwift
+MasterClass
+Boxed
+Philz Coffee
+LegalZoom
+Tommy Bahama
+Bass Pro Shops
+Elsevier
+Koch Industries
+TaskRabbit
+Salesloft
+Ogilvy
+Wolters  Kluwer
+Lennox International
+Baxter Healthcare Inc
+DaVita
+WalkMe™
+Gainsight
+Shipt
+NETSCOUT
+SAIC
+Thermo Fisher Scientific
+Nissan
+Baker Hughes
+Aon Hewitt
+Northern Trust
+SAS
+Arthur J. Gallagher & Co.
+ALDI USA
+Allergan
+Fluke Corporation
+Home Goods
+Shaw Industries
+Blue Bottle Coffee
+Topgolf
+Rolls-Royce
+Twitch
+AMC Theaters
+AMC Networks
+Halliburton
+Culture Amp
+Simon and Schuster
+Flex
+NBCUniversal
+Vox Media, Inc.
+Giant Eagle
+Scripps Health
+PNC
+Willis Towers Watson
+Robert Half
+Belkin International
+Pressed Juicery
+DTE Energy
+Datadog
+Henkel
+Citadel
+Xcel Energy
+Genetec
+Infineon Technologies
+Driveline Retail Merchandising
+SoundCloud
+Huawei
+Cleveland Clinic
+NPR
+Urban Decay Cosmetics
+BTS
+Saudi Aramco
+CNBC
+Xiaomi Technology
+NFL Network
+Benefit Cosmetics
+Ripple
+ipsy
+The Finish Line
+Corsair Components, Inc
+Kate Spade
+TED
+Penguin Random House
+Anthropologie
+MLB Network
+Wipro Limited
+Herbalife
+24-7 Intouch
+BlackCamel Energy Ltd
+Ezappsolution
+Cummins Inc.
+Blue Bell Ice Cream
+Just Dance
+Prologis
+Ivoclar Vivadent
+Naughty Dog
+Pull and Bear
+DPR Construction
+Square Enix
+Nu Skin Enterprises
+Arthrex
+Cotopaxi
+Insomniac Games
+BARK
+Ipsos
+ACCOR
+Ramsey Solutions
+USANA Health Sciences
+The Farmer's Dog
+PING
+Funko
+JAMF Software
+Meow Wolf
+Philippine Airlines
+Expeditors
+ITW
+Fairmont
+Shippo
+Who What Wear
+GoNoodle
+BioFire Diagnostics
+Melaleuca
+GoodRx
+L.L. Bean
+Wrigley
+Bank OZK
+Syngenta
+Alteryx
+doTERRA
+Coalition Technologies
+Tanium
+Braum's
+Osmosis
+Boehringer Ingelheim
+CooperVision
+Protiviti
+Newsela
+Haworth
+HCSS
+Farfetch
+Chess.com
+McMaster-Carr
+Kiewit Corporation
+Chicken Salad Chick
+Gong.io
+Flatiron Health
+City National Bank
+DigitalOcean
+BNSF Railway
+Dr Martens
+Frost Bank
+ArcelorMittal
+Jio
+Bodybuilding.com
+Lakme
+OnePlus Corporation
+MTN
+Andela
+Beckman Coulter
+Pringles
+MercadoLibre
+Del Monte Foods
+Alcon
+charity: water
+OwnBackup
+ThoughtWorks
+Accenture (Global)
+Tillamook
+Better
+NUCOR CORPORATION
+Brad's Deals
+FANDOM
+Alabama Power Company
+Flywire
+Texas Children's Hospital
+Juniper Networks
+IDEO
+DENTSPLY SIRONA
+Tata Motors Ltd
+Zambeef Products
+Mary Kay
+Texas Health Resources
+CHRISTUS Health
+Arista Networks
+Barry-Wehmiller
+Panasonic
+Esri
+Amway Corporation
+Burns & McDonnell
+Betterment
+Converse
+Betches
+Heineken
+Zenoti
+Zalora
+Landmark
+ASML
+Alation
+John Keells Holdings
+DC Comics
+Curology
+WarnerMedia
+Elastic
+International Paper
+Doctor on Demand
+Faurecia
+Entergy
+PVH
+Tenneco
+Coca-Cola Enterprises
+Golden Hippo
+Peter Piper Pizza
+Sisense
+Imperfect Foods
+Rivian
+Grab
+TJX Companies 
+Madewell
+TaskUs
+FactSet
+Pendo
+Orangetheory Fitness
+Champion
+FirstBank
+FHI 360
+Formlabs
+Whiting-Turner
+Volvo Trucks
+Cloudflare
+World Wide Technology
+ZS 
+Automattic
+Sasol Ltd.
+Decathlon
+Arup
+SABMiller
+Macquarie Group
+NFI Industries
+William Blair
+AirAsia
+GSK
+Kendra Scott, LLC.
+QuikTrip
+Sweetwater
+Carl's Jr
+Veeva Systems
+Skillshare
+Zoetis
+Fender Musical Instruments
+LIDL
+Sheetz
+NYX
+Primerica
+Aldi UK
+Pipedrive
+Genesys
+Rbc
+Culver's Restaurants
+RB US
+Kraken
+NASCAR
+Legrand
+ServiceTitan Inc.
+DTCC
+Qlik
+Samsara
+Khaadi
+Books A Million
+Novo Nordisk
+HCA Healthcare
+Kia America
+E. & J. Gallo Winery
+Jumia
+Drizly
+The Capital Grille
+The MathWorks
+Bethesda Softworks
+Standard Chartered
+Notion
+Padini Holdings
+KnowBe4
+Align Technology
+UL LLC
+Perdue Farms
+Smith & Nephew
+Yandex
+PACCAR
+Dataminr
+Careem
+Highspot
+Trane
+RH
+Valero Energy Corporation
+Talkdesk
+SeaWorld Parks & Entertainment
+Raymond James Financial
+Fluor Corporation
+DBS Bank
+Drybar
+Alliance Data
+Flipkart
+Klaviyo
+Cold Stone Creamery
+Fila
+Spin Master
+Boar's Head
+Dolls Kill
+IQVIA
+Brainly
+Ariat International
+NASA
+PatientPop
+Parachute Home
+EB Games
+BairesDev
+CDW Corporation
+WSP
+The Blackstone Group
+TJ Maxx
+Eaton
+Qatar Airways
+Dotdash
+Fastly
+Oculus VR
+Cresco Labs
+Capitec Bank
+Progressive Insurance
+Alstom
+Lose It!
+Personal Capital
+Cinemark USA
+CrowdStrike
+BBC
+iQor
+Carrabba's Italian Grill
+Strava
+W.B. Mason
+Raising Cane's
+Steel Dynamics
+AEG
+Engro Foods
+Foodpanda
+OPPO
+IGN Entertainment
+Illumina
+Planned Parenthood
+Reliance
+Mondelez International
+Wix.com
+Burlington Coat Factory
+J.M. Smucker Company 
+First National Bank
+New Balance
+Sitetracker
+McCormick & Company
+Nando's
+Galderma
+Taylor Farms
+Zimmer Biomet
+Avanade

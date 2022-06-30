@@ -4,7 +4,7 @@ const delay = require("delay");
 const axios = require('axios');
 
 
-var wallet = fs.readFileSync('wallet_htx.txt').toString().split("\r\n");
+var wallet = fs.readFileSync('wallet_retro.txt').toString().split("\r\n");
 
 async function getnewip() {
 
@@ -283,7 +283,7 @@ async function runTest(wallet) {
 
 async function final() {
 
-  for (let i = 94; i < wallet.length; i++) {
+  for (let i = 0; i < wallet.length; i++) {
 
     try {
       console.log(`${i} done`);

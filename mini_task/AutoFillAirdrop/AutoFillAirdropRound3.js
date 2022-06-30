@@ -4,7 +4,7 @@ const delay = require("delay");
 const axios = require('axios');
 
 
-var wallet = fs.readFileSync('wallet_htx.txt').toString().split("\r\n");
+var wallet = fs.readFileSync('wallet_retro.txt').toString().split("\r\n");
 
 async function getnewip() {
 
@@ -62,88 +62,88 @@ async function runTest(wallet) {
 
 
   const page = await context.newPage();
-  
+
 
   // await page.goto('https://jinshuju.net/f/V9O6hT');
 
   await page.goto('https://jinshuju.net/f/V9O6hT', {
     waitUntil: 'networkidle2'
-});
+  });
 
 
-  
-  
+
+
   // Click Start button
   await page.click('body > div.entry-container-inner > div > div.text-center > a');
   await delay(1000 * 6);
 
   // Answer Q1 O3 Interchange
-const [element11] = await page.$x('//span[contains(text(), "O3 Interchange")]');
-await element11.click();
-await delay(500 * 1);
+  const [element11] = await page.$x('//span[contains(text(), "O3 Interchange")]');
+  await element11.click();
+  await delay(500 * 1);
 
-// Answer Q2 Swap
-await page.evaluate(() => {
-  Array.from(document.querySelectorAll("span"))
-  .filter((span) => { return span.innerText === "Swap"})[0].click();
-});
+  // Answer Q2 Swap
+  await page.evaluate(() => {
+    Array.from(document.querySelectorAll("span"))
+      .filter((span) => { return span.innerText === "Swap" })[0].click();
+  });
 
-// Answer Q3 Transfer arbitrary assets on the source chain for the network fee of the target chain.
-const [element13] = await page.$x('//span[contains(text(), "Transfer arbitrary assets on the source chain for the network fee of the target chain.")]');
-await element13.click();
-await delay(500 * 1);
+  // Answer Q3 Transfer arbitrary assets on the source chain for the network fee of the target chain.
+  const [element13] = await page.$x('//span[contains(text(), "Transfer arbitrary assets on the source chain for the network fee of the target chain.")]');
+  await element13.click();
+  await delay(500 * 1);
 
-// Answer Q4 Solana
-const [element14] = await page.$x('//span[contains(text(), "Solana")]');
-await element14.click();
-await delay(500 * 1);
+  // Answer Q4 Solana
+  const [element14] = await page.$x('//span[contains(text(), "Solana")]');
+  await element14.click();
+  await delay(500 * 1);
 
-// Answer Q5 LP-BNB
-const [element15] = await page.$x('//span[contains(text(), "LP-BNB")]');
-await element15.click();
-await delay(500 * 1);
-
-
-// Answer Q6 O3
-// await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(12) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span');
-// await delay(500 * 1);
-await page.evaluate(() => {
-  Array.from(document.querySelectorAll("span"))
-  .filter((span) => { return span.innerText === "O3"})[0].click();
-});
+  // Answer Q5 LP-BNB
+  const [element15] = await page.$x('//span[contains(text(), "LP-BNB")]');
+  await element15.click();
+  await delay(500 * 1);
 
 
-// Answer Q7 NPAPs
-const [element17] = await page.$x('//span[contains(text(), "NPAPs")]');
-await element17.click();
-await delay(500 * 1);
+  // Answer Q6 O3
+  // await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(12) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span');
+  // await delay(500 * 1);
+  await page.evaluate(() => {
+    Array.from(document.querySelectorAll("span"))
+      .filter((span) => { return span.innerText === "O3" })[0].click();
+  });
 
-// Answer Q8 The trading fee, 80%
-const [element18] = await page.$x('//span[contains(text(), "The trading fee, 80%")]');
-await element18.click();
-await delay(500 * 1);
 
-// Answer Q9 Aggregating multiple DEXs of source chain + target chain
-const [element19] = await page.$x('//span[contains(text(), "Aggregating multiple DEXs of source chain + target chain")]');
-await element19.click();
-await delay(500 * 1);
+  // Answer Q7 NPAPs
+  const [element17] = await page.$x('//span[contains(text(), "NPAPs")]');
+  await element17.click();
+  await delay(500 * 1);
 
-// Answer Q10 Fill Wallet
-await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(20) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
-await delay(500 * 1);
-await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(22) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
-await delay(500 * 1);
+  // Answer Q8 The trading fee, 80%
+  const [element18] = await page.$x('//span[contains(text(), "The trading fee, 80%")]');
+  await element18.click();
+  await delay(500 * 1);
 
-// Click Final Submit
-await page.click('#root > div > form > div.published-form__footer > div > button');
-await delay(1000 * 6);
+  // Answer Q9 Aggregating multiple DEXs of source chain + target chain
+  const [element19] = await page.$x('//span[contains(text(), "Aggregating multiple DEXs of source chain + target chain")]');
+  await element19.click();
+  await delay(500 * 1);
+
+  // Answer Q10 Fill Wallet
+  await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(20) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
+  await delay(500 * 1);
+  await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(22) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
+  await delay(500 * 1);
+
+  // Click Final Submit
+  await page.click('#root > div > form > div.published-form__footer > div > button');
+  await delay(1000 * 6);
 
 
   /////// Enter Form 2
 
-// await page.goto('https://jinshuju.net/f/JdNMkh');
+  // await page.goto('https://jinshuju.net/f/JdNMkh');
 
-await page.goto('https://jinshuju.net/f/JdNMkh', {  waitUntil: 'networkidle2'});
+  await page.goto('https://jinshuju.net/f/JdNMkh', { waitUntil: 'networkidle2' });
 
 
 
@@ -170,15 +170,15 @@ await page.goto('https://jinshuju.net/f/JdNMkh', {  waitUntil: 'networkidle2'});
   await element23.click();
   await delay(500 * 1);
 
-// Answer Q4 8,000,000,000
-const [element24] = await page.$x('//span[contains(text(), "8,000,000,000")]');
-await element24.click();
-await delay(500 * 1);
+  // Answer Q4 8,000,000,000
+  const [element24] = await page.$x('//span[contains(text(), "8,000,000,000")]');
+  await element24.click();
+  await delay(500 * 1);
 
-// Answer Q5 Fix WPC Reward Distribution
-const [element25] = await page.$x('//span[contains(text(), "Fix WPC Reward Distribution")]');
-await element25.click();
-await delay(500 * 1);
+  // Answer Q5 Fix WPC Reward Distribution
+  const [element25] = await page.$x('//span[contains(text(), "Fix WPC Reward Distribution")]');
+  await element25.click();
+  await delay(500 * 1);
 
 
   // Answer Q10 Fill Wallet
@@ -196,7 +196,7 @@ await delay(500 * 1);
 
   /////// Enter Form 3
 
-  await page.goto('https://jinshuju.net/f/L6i5sn', {  waitUntil: 'networkidle2'});
+  await page.goto('https://jinshuju.net/f/L6i5sn', { waitUntil: 'networkidle2' });
 
 
 
@@ -261,71 +261,71 @@ await delay(500 * 1);
 
 
 
- /////// Enter Form 4 Learn and earn at imToken - WOOFi
+  /////// Enter Form 4 Learn and earn at imToken - WOOFi
 
- await page.goto('https://jinshuju.net/f/Pi1S7m', {  waitUntil: 'networkidle2'});
-
-
-
- // Click Start button
- await page.click('body > div.entry-container-inner > div > div.text-center > a');
-
- await delay(1000 * 6);
-
- // Answer Q1 WOOFi
-
- await page.evaluate(() => {
-   Array.from(document.querySelectorAll("span"))
-   .filter((span) => { return span.innerText === "WOOFi"})[0].click();
- });
-
- // Answer Q2 Farm
-
- const [element42] = await page.$x('//span[contains(text(), "Farm")]');
- await element42.click();
- await delay(500 * 1);
-
- // Answer Q3 Solana
- const [element43] = await page.$x('//span[contains(text(), "Solana")]');
- await element43.click();
- await delay(500 * 1);
-
- // Answer Q4 7 days
- const [element44] = await page.$x('//span[contains(text(), "7 days")]');
- await element44.click();
- await delay(500 * 1);
-
- // Answer Q5 sPMM
- const [element45] = await page.$x('//span[contains(text(), "sPMM")]');
- await element45.click();
- await delay(500 * 1);
-
- // Answer Q6 All the above are OK
- const [element46] = await page.$x('//span[contains(text(), "All the above are OK")]');
- await element46.click();
- await delay(500 * 1);
-
- // Answer Q7 300 thousands
- const [element47] = await page.$x('//span[contains(text(), "300 thousands")]');
- await element47.click();
- await delay(500 * 1);
-
-   // Answer Q8 All of the above
-
-await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(16) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span')
-await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(18) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span')
-   
- // Answer Q7 0.025%
- const [element48] = await page.$x('//span[contains(text(), "0.025%")]');
- await element48.click();
- await delay(500 * 1);
+  await page.goto('https://jinshuju.net/f/Pi1S7m', { waitUntil: 'networkidle2' });
 
 
 
- // Answer Q10 Fill Wallet
- await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(22) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
+  // Click Start button
+  await page.click('body > div.entry-container-inner > div > div.text-center > a');
 
- await delay(500 * 1);
+  await delay(1000 * 6);
+
+  // Answer Q1 WOOFi
+
+  await page.evaluate(() => {
+    Array.from(document.querySelectorAll("span"))
+      .filter((span) => { return span.innerText === "WOOFi" })[0].click();
+  });
+
+  // Answer Q2 Farm
+
+  const [element42] = await page.$x('//span[contains(text(), "Farm")]');
+  await element42.click();
+  await delay(500 * 1);
+
+  // Answer Q3 Solana
+  const [element43] = await page.$x('//span[contains(text(), "Solana")]');
+  await element43.click();
+  await delay(500 * 1);
+
+  // Answer Q4 7 days
+  const [element44] = await page.$x('//span[contains(text(), "7 days")]');
+  await element44.click();
+  await delay(500 * 1);
+
+  // Answer Q5 sPMM
+  const [element45] = await page.$x('//span[contains(text(), "sPMM")]');
+  await element45.click();
+  await delay(500 * 1);
+
+  // Answer Q6 All the above are OK
+  const [element46] = await page.$x('//span[contains(text(), "All the above are OK")]');
+  await element46.click();
+  await delay(500 * 1);
+
+  // Answer Q7 300 thousands
+  const [element47] = await page.$x('//span[contains(text(), "300 thousands")]');
+  await element47.click();
+  await delay(500 * 1);
+
+  // Answer Q8 All of the above
+
+  await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(16) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span')
+  await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(18) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span')
+
+  // Answer Q7 0.025%
+  const [element48] = await page.$x('//span[contains(text(), "0.025%")]');
+  await element48.click();
+  await delay(500 * 1);
+
+
+
+  // Answer Q10 Fill Wallet
+  await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(22) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
+
+  await delay(500 * 1);
 
   // Click Final Submit
   await page.click('#root > div > form > div.published-form__footer > div > button');
@@ -337,7 +337,7 @@ await page.click('#root > div > form > div.published-form__body > div.ant-row.fi
   /////// Enter Form 5 Learn and earn at imToken - imKey
 
 
-  await page.goto('https://jinshuju.net/f/pHzQ1z', {  waitUntil: 'networkidle2'});
+  await page.goto('https://jinshuju.net/f/pHzQ1z', { waitUntil: 'networkidle2' });
 
 
 
@@ -362,19 +362,19 @@ await page.click('#root > div > form > div.published-form__body > div.ant-row.fi
   // Answer Q3 PIN Blinding code Mnemonic
   await page.evaluate(() => {
     Array.from(document.querySelectorAll("span"))
-    .filter((span) => { return span.innerText === "PIN"})[0].click();
+      .filter((span) => { return span.innerText === "PIN" })[0].click();
   });
   await delay(500 * 1);
 
   await page.evaluate(() => {
     Array.from(document.querySelectorAll("span"))
-    .filter((span) => { return span.innerText === "Binding code"})[0].click();
+      .filter((span) => { return span.innerText === "Binding code" })[0].click();
   });
   await delay(500 * 1);
 
   await page.evaluate(() => {
     Array.from(document.querySelectorAll("span"))
-    .filter((span) => { return span.innerText === "Mnemonic"})[0].click();
+      .filter((span) => { return span.innerText === "Mnemonic" })[0].click();
   });
   await delay(500 * 1);
 
@@ -391,12 +391,12 @@ await page.click('#root > div > form > div.published-form__body > div.ant-row.fi
 
   // Answer Q7 All of the above
 
-      await page.evaluate(() => {
-        Array.from(document.querySelectorAll("span"))
-        .filter((span) => { return span.innerText === "All of the above"})[0].click();
-      });
+  await page.evaluate(() => {
+    Array.from(document.querySelectorAll("span"))
+      .filter((span) => { return span.innerText === "All of the above" })[0].click();
+  });
 
-   
+
   // Answer Q8 Set a strong PIN, Accurately write down the binding code and keep it in a safe place, Back up the mnemonic carefully and and keep it in a safe place
   const [element581] = await page.$x('//span[contains(text(), "Set a strong PIN")]');
   await element581.click();
@@ -441,56 +441,56 @@ await page.click('#root > div > form > div.published-form__body > div.ant-row.fi
   await delay(1000 * 6);
 
 
- /////// Enter Form 6 Learn and earn at imToken - Celer
+  /////// Enter Form 6 Learn and earn at imToken - Celer
 
- await page.goto('https://jinshuju.net/f/gj6uYF', {  waitUntil: 'networkidle2'});
-
-
-
-
- // Click Start button
- await page.click('body > div.entry-container-inner > div > div.text-center > a');
- await delay(1000 * 6);
-
- // Answer Q1 Transfer money with imKey Pro
- await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(2) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span');
- await delay(500 * 1);
-
-
- // Answer Q2 The transfer fees go directly to the Celer team
-
- const [element62] = await page.$x('//span[contains(text(), "The transfer fees go directly to the Celer team")]');
- await element62.click();
- await delay(500 * 1);
-
-
- // Answer Q4 Over 30
- const [element64] = await page.$x('//span[contains(text(), "Over 30")]');
- await element64.click();
- await delay(500 * 1);
-
- // Answer Q5 xLiquidity and xAsset
- const [element65] = await page.$x('//span[contains(text(), "xLiquidity and xAsset")]');
- await element65.click();
- await delay(500 * 1);
-
- // Answer Q6 All of the above
-
-await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(10) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span')
-await delay(500 * 1);
-
-  
- // Answer Q8 A validator node can act maliciously toward the network without being punished.
- const [element68] = await page.$x('//span[contains(text(), "A validator node can act maliciously toward the network without being punished.")]');
- await element68.click();
- await delay(500 * 1);
+  await page.goto('https://jinshuju.net/f/gj6uYF', { waitUntil: 'networkidle2' });
 
 
 
- // Answer Q10 Fill Wallet
- await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(14) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
 
- await delay(500 * 1);
+  // Click Start button
+  await page.click('body > div.entry-container-inner > div > div.text-center > a');
+  await delay(1000 * 6);
+
+  // Answer Q1 Transfer money with imKey Pro
+  await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(2) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span');
+  await delay(500 * 1);
+
+
+  // Answer Q2 The transfer fees go directly to the Celer team
+
+  const [element62] = await page.$x('//span[contains(text(), "The transfer fees go directly to the Celer team")]');
+  await element62.click();
+  await delay(500 * 1);
+
+
+  // Answer Q4 Over 30
+  const [element64] = await page.$x('//span[contains(text(), "Over 30")]');
+  await element64.click();
+  await delay(500 * 1);
+
+  // Answer Q5 xLiquidity and xAsset
+  const [element65] = await page.$x('//span[contains(text(), "xLiquidity and xAsset")]');
+  await element65.click();
+  await delay(500 * 1);
+
+  // Answer Q6 All of the above
+
+  await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(10) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span')
+  await delay(500 * 1);
+
+
+  // Answer Q8 A validator node can act maliciously toward the network without being punished.
+  const [element68] = await page.$x('//span[contains(text(), "A validator node can act maliciously toward the network without being punished.")]');
+  await element68.click();
+  await delay(500 * 1);
+
+
+
+  // Answer Q10 Fill Wallet
+  await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(14) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
+
+  await delay(500 * 1);
 
   // Click Final Submit
   await page.click('#root > div > form > div.published-form__footer > div > button');
@@ -500,7 +500,7 @@ await delay(500 * 1);
 
   /////// Enter Form 7 Learn and earn at imToken - imToken General Safety Knowledge
 
-  await page.goto('https://jinshuju.net/f/IWVodP', {  waitUntil: 'networkidle2'});
+  await page.goto('https://jinshuju.net/f/IWVodP', { waitUntil: 'networkidle2' });
 
 
   // Click Start button
@@ -539,8 +539,8 @@ await delay(500 * 1);
   // Answer Q8 A validator node can act maliciously toward the network without being punished.
   await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(12) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(1) > div > div > label > span:nth-child(2) > span')
   await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(12) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(2) > div > div > label > span:nth-child(2) > span')
-  await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(12) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(3) > div > div > label > span:nth-child(2) > span') 
-  await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(12) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span') 
+  await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(12) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(3) > div > div > label > span:nth-child(2) > span')
+  await page.click('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(12) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > div > div:nth-child(4) > div > div > label > span:nth-child(2) > span')
 
   // Answer Q10 Fill Wallet
   await page.type('#root > div > form > div.published-form__body > div.ant-row.fields > div:nth-child(14) > div > div > div.ant-col.ant-form-item-control > div.ant-form-item-control-input > div > span > span > input', wallet, { delay: 10 })
